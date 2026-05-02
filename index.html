@@ -71,7 +71,7 @@ p {
 let pages = [];
 
 // Load your crawler data
-fetch("data.json")
+fetch("https://friendly-meme-ndku.onrender.com/search?q=" + q)
   .then(res => res.json())
   .then(data => pages = data);
 
